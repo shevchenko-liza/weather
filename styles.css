@@ -1,0 +1,42 @@
+.box {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    background-color: rgb(128, 179, 162);
+    width: 350px;
+    height: 220px;
+    padding: 0;
+}
+
+.city {
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.status {
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.temperature {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.feels_like {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+}
